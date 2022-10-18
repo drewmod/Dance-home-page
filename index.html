@@ -2,92 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dance landing Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Open+Sans&family=Poppins:wght@300;400&display=swap"
-        rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Home Landing Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css">
 </head>
 
 <body>
-    <header>
-        <div class="hero-container">
-            <div class="left-container"><img src="." alt="" /></div>
-            <div class="right-container">
-                <div class="nav-container">
-                    <div class="line">
-                        <hr />
-                    </div>
 
-                    <nav>
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Profolio</a>
-                        <a href="#">Contact </a>
-                    </nav>
+    <div class="container">
+
+        
+        <div class="side-one">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="logo">
+            </div>
+            <img src="./assets/dance.jpg" alt="side-one-image" class="side-one-img">
+        </div>
+
+        
+
+        <div class="side-two">
+            <nav class="navbar">
+                <div class="horizontal-line"></div>
+                <ul class="list">
+                    <li class="list-item"><a href="#">Home</a></li>
+                    <li class="list-item"> <a href="#">About Us</a></li>
+                    <li class="list-item"><a href="#">Portfolio</a></li>
+                    <li class="list-item"><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="burger-icon">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </div>
+                
+            </nav>
 
-                <div class="header-text">
-                    <div class="hero-text">
-                        <h1>
-                            <span id="crea">Crea-</span> <br /><span id="tiv">tivity.</span>
+            <!-- top container -->
+            <div class="caption">
+                <div class="top-caption">
+                    <div class="main-caption">
+                        <h1 class="caption-heading"> <span class="crea">Crea &#8212;</span> <br> <span
+                                class="tivity">tivity.</span>
                         </h1>
-                    </div>
-                    <div class="hero-text-right">
-                        <p>
-                            is our <br />
-                            ingredient
-                        </p>
-                        <div class="btn-main">
-                            <button type="button">Check Our Package</button>
+                        <div class="heading-message">
+                            <p class="heading-paragraph">is our <br> ingredient.</p>
                         </div>
+                    </div>
 
-                        <div class="icon-container">
-                            <img src="./assets/Twitter Icon.svg" alt="Twitter" />
-                            <img src="./assets/Instagram Icon.svg" alt="Instagram" />
-                            <img src="./assets/Facebook Icon.svg" alt="Facebook" />
-                            <img src="./assets/Email Icon.svg" alt="Email" />
-                        </div>
-                    </div>
+                    <ul class="social-handles">
+                        <li class="scocial-icon"><a href="#"><img src="./assets/Twitter Icon.svg" alt=""></a></li>
+                        <li class="scocial-icon"><a href="#"><img src="./assets/Instagram Icon.svg" alt=""></a></li>
+                        <li class="scocial-icon"><a href="#"><img src="./assets/Facebook Icon.svg" alt=""></a>
+                        </li>
+                        <li class="scocial-icon"><a href="#"><img src="./assets/Email Icon.svg" alt=""></a></li>
+                    </ul>
                 </div>
-
-                <div class="container">
-                    <div class="list-contianer">
-                        <div class="line-vert"></div>
-                        <ul class="list">
-                            <li class="list-item">Photography</li>
-                            <li class="list-item">Videography</li>
-                            <li class="list-item">Graphic Design</li>
-                            <li class="list-item">Illustration</li>
-                            <li class="list-item">Animation</li>
-                        </ul>
-                    </div>
-
-                    <div class="text-container">
-                        <p class="quote">
-                            We help you to create the best graphics, photos, videos,
-                            animations and illustrations
-                        </p>
-                        <div class="img-container">
-                            <img src="./assets/dance1.jpg" alt="dance" />
-                        </div>
-                    </div>
-
-                    <div class="icon-container-2">
-                        <i class="fa-solid fa-arrow-down-long"></i>
-                    </div>
+                <div class="btn-check">
+                    <a href="#">Check Our Package</a>
                 </div>
             </div>
+
+
+            <div class="services">
+
+                <div class="services-info">
+                    <div class="vertical-line"></div>
+                    <ul class="services-list">
+                        <li class="active-list">Photography</li>
+                        <li>Videography</li>
+                        <li>Graphic Design</li>
+                        <li>Illustration</li>
+                        <li>Animation</li>
+                    </ul>
+                </div>
+
+               
+                <div class="action-point">
+                    <h2>&rsquo; &rsquo;</h2>
+                    <p>We help you to create the best graphics, photos, videos, animations and illustrations</p>
+                    <div class="action-point-img">
+                        <img src="./assets/dance1.jpg" alt="action-image">
+                    </div>
+                </div>
+
+                
+                <div class="down-arrow">
+                    <div class="arrow">
+                        <div class="arrow-body"></div>
+                        <div class="arrow-head"></div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-    </header>
+
+    </div>
 </body>
 
 </html>
